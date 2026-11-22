@@ -1,0 +1,30 @@
+{
+ "date": "2026-11-22",
+ "excluded_columns": {
+  "commitments": [
+   "enriched_at",
+   "enrich_status"
+  ],
+  "filings": [],
+  "order_wins": [
+   "enriched_at",
+   "enrich_status"
+  ]
+ },
+ "format": "river-snapshot/1",
+ "how_to_verify": "Each row hash is sha256(table + '\\n' + canonical JSON of the row without excluded columns, keys sorted, no spaces). A table root is sha256 of its row hashes sorted by row id and joined by newlines. The root is sha256 of the lines: format, date, then 'table:table_root' sorted by table.",
+ "root_sha256": "216d33f81cbcc7211e8fc38baee10ea2b191c4631254358c94741b7cc30f5fc9",
+ "rows": {
+  "commitments": 657,
+  "filings": 58001,
+  "order_wins": 4268,
+  "targets": 44
+ },
+ "table_roots": {
+  "commitments": "234145bdb59c8dce1618bc75c1175bc98b5d5454b181f080861f2c34a92c1730",
+  "filings": "d3f7cd9878dd90690822f0e73e645594b674e65299333b39fc6d0fe08e6a8dca",
+  "order_wins": "53c17740bff156e5e43d0eca8a3cf3323ba453bdf18008b2a543b8961a39bcda",
+  "targets": "8994ef87e0120389953be47e0c1080c090a82daea1f08a33c1f80d6741552023"
+ },
+ "taken_at_utc": "2026-11-22T18:11:06Z"
+}
