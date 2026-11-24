@@ -1,3 +1,4 @@
 date,root_sha256,format,rows
 2026-11-21,21f2d6ef9cb1769e8efe0a413d90188710d2dbd2a899ca0da9c3b6be27b59bc7,river-snapshot/1,commitments=657;filings=58001;order_wins=4268;targets=44
 2026-11-22,216d33f81cbcc7211e8fc38baee10ea2b191c4631254358c94741b7cc30f5fc9,river-snapshot/1,commitments=657;filings=58001;order_wins=4268;targets=44
+2026-11-24,c88c5b6d44b96561b0dd03cab5c91499af5349a820f652cffd508a6f7db10600,river-snapshot/1,commitments=657;filings=58192;order_wins=4302;targets=44
